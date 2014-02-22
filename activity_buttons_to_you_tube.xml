@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ButtonsToYouTubeActivity" >
+
+    <TextView
+        android:id="@+id/playwithyoutubemusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/youtubemusic" />
+
+    <TextView
+        android:id="@+id/midnight_adult_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playwithyoutubemusic"
+        android:layout_alignTop="@+id/midnight_adult"
+        android:layout_marginTop="26dp"
+        android:text="@string/midnight_adult" />
+
+    <TextView
+        android:id="@+id/midnight_puppy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/midnight_puppy"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/barcelona"
+        android:text="@string/midnight_puppy" />
+
+    <Button
+        android:id="@+id/ledzep_blackdog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/midnight_puppy_text"
+        android:layout_below="@+id/midnight_puppy_text"
+        android:onClick="openYouTubeLedZepBlackDog"
+        android:paddingLeft="8dp"
+        android:text="@string/ledzeppelin" />
+
+    <ImageView
+        android:id="@+id/midnight_adult"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/midnight_puppy"
+        android:layout_below="@+id/midnight_puppy"
+        android:contentDescription="@string/midnight_adult"
+        android:paddingLeft="16dp"
+        android:paddingTop="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/midnightasadult" />
+
+    <ImageView
+        android:id="@+id/midnight_puppy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/playwithyoutubemusic"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/midnight_puppy"
+        android:paddingLeft="16dp"
+        android:paddingTop="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/midnightpuppy" />
+
+    <Button
+        android:id="@+id/miracle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/midnight_adult_text"
+        android:layout_toRightOf="@+id/vengalaprimavera"
+        android:onClick="openYouTubeQueenMiracle"
+        android:paddingLeft="8dp"
+        android:text="@string/miracle" />
+
+    <Button
+        android:id="@+id/vengalaprimavera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/miracle"
+        android:layout_alignBottom="@+id/miracle"
+        android:layout_alignLeft="@+id/midnight_adult_text"
+        android:onClick="openYouTubeSkyeOrchUliJonRoth"
+        android:paddingTop="8dp"
+        android:text="@string/vengalaprimavera" />
+
+    <Button
+        android:id="@+id/nutrocker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vengalaprimavera"
+        android:layout_below="@+id/miracle"
+        android:layout_marginTop="18dp"
+        android:onClick="openYouTubeELPnutrocker"
+        android:text="@string/nutrocker" />
+
+    <Button
+        android:id="@+id/karnevil9_1stimp_p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nutrocker"
+        android:layout_alignBottom="@+id/nutrocker"
+        android:layout_toRightOf="@+id/miracle"
+        android:onClick="openYouTubeELPkarnevil9_1stimp_p2"
+        android:paddingTop="8dp"
+        android:text="@string/karnevil9_1stimp_p2" />
+
+    <Button
+        android:id="@+id/barcelona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/karnevil9_1stimp_p2"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/midnight_adult_text"
+        android:onClick="openYouTubeFreddieMercuryMonserratCaballeBarcelona"
+        android:text="@string/barcelona" />
+
+    <Button
+        android:id="@+id/greensleeves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/barcelona"
+        android:layout_alignBottom="@+id/barcelona"
+        android:layout_alignLeft="@+id/nutrocker"
+        android:onClick="openYouTubeRitchieBlackmoreRainbowGreensleeves"
+        android:text="@string/greensleeves" />
+    
+</RelativeLayout>

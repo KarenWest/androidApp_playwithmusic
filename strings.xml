@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">playwithmusic_hw2app2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_buttons_to_you_tube">ButtonsToYouTube</string>
+    <string name="title_activity_play_raw_music">PlayRawMusic</string>
+    <string name="play_with_music">Go to Main Menu for Music Icons!</string>
+    <string name="youtubemusic">Press to Play You Tube Music!</string>
+    <string name="playhappynewyear">Happy New Year!</string>
+    <string name="stophappynewyear">Stop!</string>
+    <string name="nutrocker">Nutrocker!</string>
+    <string name="ledzeppelin">Led Zeppelin Black Dog!</string>
+    <string name="karnevil9_1stimp_p2">KE9_Imp1P2!</string>
+    <string name="vengalaprimavera">VLP!</string>
+    <string name="miracle">Miracle!</string>
+    <string name="barcelona">Barclelona!</string>
+    <string name="greensleeves">Greensleeves!</string>
+    <string name="happynewyearlyrics">No more champagne \nAnd the fireworks are through \nHere we are, me and you \nFeeling lost and feeling blue \nIt\'s the end of the party \nAnd the morning seems so grey \nSo unlike yesterday \nNow\'s the time for us to say \n\nHappy new year \nHappy new year \nAl brindar \nles deseamos \nde ahora en más \npaz, amor en donde reine la amistad \n\nHappy new year \nHappy new year \nal rogar \nesperanza de cambiar \nsin dejar al desaliento dominar \ny triunfar \n\nY cuando veo \nese mundo que vendrá \nnuevo al fin \nllegará \nde ceniza surgirá \nGente equivocada \nque pretende estar muy bien \nse los ve \narrastrar \npies de barro y caminar \nsin saber por dónde andar \n\nHappy new year \nHappy new year \nal rogar \nesperanza de cambiar \nsin dejar al desaliento dominar \ny así triunfar \n\nSeems to me now \nThat the dreams we had before \nAre all dead, nothing more \nThan confetti on the floor \nEs el tiempo pasado \ny en los años que vendrán \n¿quién podrá predecir \nqué depara el porvenir \nqué nos falta por vivir? \n\nHappy new year \nHappy new year \nAl brindar \nles deseamos \nde ahora en más \npaz, amor en donde reine la amistad \n\nHappy new year \nHappy new year \nal rogar \nesperanza de cambiar \nsin dejar al desaliento dominar \ny así triunfar </string>
+    <string name="henkays_ikuisuudesta_happynewyear_cover_description">henkays_ikuisuudesta_happynewyear_cover</string>
+    <string name="happynewyear_cover_description">happynewyear_cover_description</string>
+    <string name="play_raw_music">Press To Play Raw Music!</string>
+    <string name="midnight_adult">Midnight (Died: 6/6/2006)</string>
+    <string name="midnight_puppy">Midnight (Born: 8/4/1994)</string>
+    
+</resources>
